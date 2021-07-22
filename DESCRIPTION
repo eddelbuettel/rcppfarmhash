@@ -1,0 +1,11 @@
+Package: RcppFarmHash
+Type: Package
+Title: Rcpp Interface to Google 'FastHash' 
+Version: 0.0.1
+Date: 2021-07-22
+Author: Dirk Eddelbuettel
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: This package interfaces the Google 'FashHash' hashing library.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp
