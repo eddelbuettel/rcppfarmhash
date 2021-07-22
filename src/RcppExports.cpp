@@ -11,13 +11,13 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 // farmhash
-size_t farmhash(const std::string& s);
-RcppExport SEXP _RcppFarmHash_farmhash(SEXP sSEXP) {
+Rcpp::NumericVector farmhash(const std::vector<std::string>& sv);
+RcppExport SEXP _RcppFarmHash_farmhash(SEXP svSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< const std::string& >::type s(sSEXP);
-    rcpp_result_gen = Rcpp::wrap(farmhash(s));
+    Rcpp::traits::input_parameter< const std::vector<std::string>& >::type sv(svSEXP);
+    rcpp_result_gen = Rcpp::wrap(farmhash(sv));
     return rcpp_result_gen;
 END_RCPP
 }
