@@ -1,0 +1,17 @@
+2021-07-23  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/hasher.cpp: Vectorised, added help page
+	* man/farmhash.Rd: Added via roxygen2
+	* README.md: Added simple README
+	* inst/AUTHORS: Geoff Pike wrote FarmHash
+	* .gitignore: Added
+	* .Rbuildignore: Added
+	* cleanup: Added
+
+2021-07-22  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Initial version
+	* NAMESPACE: Idem
+	* src/farmhash.{cc,h}: From FarmHash
+	* src/hasher.cpp: Simpler string hasher
+        * .editorconfig: Added
