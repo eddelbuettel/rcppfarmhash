@@ -2,6 +2,9 @@
 ## Rcpp Interface to the Google FarmHash Family of Hash Functions
 
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![CRAN](https://www.r-pkg.org/badges/version/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
+[![Dependencies](https://tinyverse.netlify.com/badge/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
+[![Downloads](https://cranlogs.r-pkg.org/badges/RcppFarmHash?color=brightgreen)](https://www.r-pkg.org/pkg/RcppFarmHash)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/rcppfarmhash)](https://github.com/eddelbuettel/rcppfarmhash)
 
 ### Motivation
@@ -22,7 +25,13 @@ integer64
 
 ### Installation
 
-The package can be installed directly from the source repository:
+The package can be installed from CRAN via the usual command
+
+```r
+install.packages("RcppFarmHash")
+```
+
+or, alternatively, also directly from the source repository:
 
 ```r
 remotes::install_github("eddelbuettel/rcppfarmhash")
