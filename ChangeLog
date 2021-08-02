@@ -1,6 +1,13 @@
+2021-08-02  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Date, Version): Release 0.0.2
+
 2021-07-26  Dirk Eddelbuettel  <edd@debian.org>
 
 	* README.md: Additional badgeds and CRAN installation notes
+
+	* configure: On SunOS, create src/Makevars to define endianness so
+	that no attemp to include the (non-existing) endian.h is made
 
 2021-07-25  Dirk Eddelbuettel  <edd@debian.org>
 

@@ -1,22 +1,20 @@
 Package: RcppFarmHash
 Type: Package
 Title: Interface to the Google 'FarmHash' Family of Hash Functions
-Version: 0.0.1
-Date: 2021-07-25
-Author: Dirk Eddelbuettel [aut, cre, cph], Geoff Pike [aut], Google, Inc. [cph]
+Version: 0.0.2
+Date: 2021-08-02
+Author: Dirk Eddelbuettel
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Authors@R: c(
- person("Dirk", "Eddelbuettel", email = "edd@debian.org", role = c("aut", "cre", "cph")),
- person("Geoff", "Pike", role = "aut"),
- person("Google, Inc.", role = "cph"))
-Description: The Google 'FarmHash' family of hash functions is used by the Google
- 'BigQuery' data warehouse via the 'FARM_FINGERPRINT' function. This package
- permits to calculate these hash digest fingerprints directly from R.
+Description: The Google 'FarmHash' family of hash functions is used by
+ the Google 'BigQuery' data warehouse via the 'FARM_FINGERPRINT'
+ function. This package permits to calculate these hash digest
+ fingerprints directly from R, and uses the included 'FarmHash'
+ files written by G. Pike and copyrighted by Google, Inc.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.7)
 LinkingTo: Rcpp
 Suggests: bit64
-URL: https://github.com/eddelbuettel/rcppfarmhash/
+URL: https://github.com/eddelbuettel/rcppfarmhash/, https://dirk.eddelbuettel.com/code/rcpp.farmhash.html
 BugReports: https://github.com/eddelbuettel/rcppfarmhash/issues
 RoxygenNote: 6.0.1
 Encoding: UTF-8

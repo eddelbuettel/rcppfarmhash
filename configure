@@ -1,0 +1,10 @@
+#!/bin/sh
+
+: ${R_HOME:=`R RHOME`}
+
+sysname=`${R_HOME}/bin/Rscript -e 'cat(Sys.info()[["sysname"]])'`
+
+if [ "${sysname}" = "SunOS" ]; then
+    echo "** setting src/Makevars on SunOS"
+    echo "PKG_CXXFLAGS=-D__LITTLE_ENDIAN__" > src/Makevars
+fi
