@@ -1,6 +1,7 @@
 
 ## Rcpp Interface to the Google FarmHash Family of Hash Functions
 
+[![CI](https://github.com/eddelbuettel/rcppspdlog/actions/workflows/ci.yaml/badge.svg)](https://github.com/eddelbuettel/rcppspdlog/actions/workflows/ci.yaml)
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 [![CRAN](https://www.r-pkg.org/badges/version/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
 [![Dependencies](https://tinyverse.netlify.com/badge/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
