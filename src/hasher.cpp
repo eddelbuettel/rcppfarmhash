@@ -1,5 +1,6 @@
 
-#include <Rcpp.h>
+#include <Rcpp/Lightest>
+#include <RcppInt64>
 
 #include "farmhash.h"
 
@@ -23,10 +24,5 @@ Rcpp::NumericVector farmhash(const std::vector<std::string> & sv) {
         iv[i] = static_cast<int64_t>(util::Hash(sv[i].c_str(), sv[i].size()));
     }
 
-    // see e.g. https://gallery.rcpp.org/articles/creating-integer64-and-nanotime-vectors/
-    Rcpp::NumericVector nv(n);
-    std::memcpy(&(nv[0]), &(iv[0]), n * sizeof(double));
-    nv.attr("class") = "integer64";
-
-    return nv;
+    return Rcpp::wrap(iv);      // using Rcpp::wrap() from RcppInt64
 }

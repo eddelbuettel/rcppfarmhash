@@ -1,8 +1,8 @@
 Package: RcppFarmHash
 Type: Package
 Title: Interface to the Google 'FarmHash' Family of Hash Functions
-Version: 0.0.2
-Date: 2021-08-02
+Version: 0.0.2.1
+Date: 2023-09-07
 Author: Dirk Eddelbuettel
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: The Google 'FarmHash' family of hash functions is used by
@@ -12,7 +12,7 @@ Description: The Google 'FarmHash' family of hash functions is used by
  files written by G. Pike and copyrighted by Google, Inc.
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.7)
-LinkingTo: Rcpp
+LinkingTo: Rcpp, RcppInt64
 Suggests: bit64
 URL: https://github.com/eddelbuettel/rcppfarmhash/, https://dirk.eddelbuettel.com/code/rcpp.farmhash.html
 BugReports: https://github.com/eddelbuettel/rcppfarmhash/issues
