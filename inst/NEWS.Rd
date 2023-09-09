@@ -3,6 +3,13 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/rcppfarmhash/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/rcppfarmhash/issues/#1}{##1}}
 
+\section{Changes in version 0.0.3 (2023-09-09)}{
+  \itemize{
+    \item Rely on new \pkg{RcppInt64} package and its header for conversion
+    \item Minor updates to continuous integration and README.md
+  }
+}
+
 \section{Changes in version 0.0.2 (2021-08-02)}{
   \itemize{
     \item On SunOS, set endianness to not error on \code{#include endian.h}
