@@ -1,3 +1,7 @@
+2023-09-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v4
+
 2023-09-08  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (LinkingTo): Add RcppInt64
