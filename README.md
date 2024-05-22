@@ -4,7 +4,7 @@
 [![CI](https://github.com/eddelbuettel/rcppspdlog/actions/workflows/ci.yaml/badge.svg)](https://github.com/eddelbuettel/rcppspdlog/actions/workflows/ci.yaml)
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 [![CRAN](https://www.r-pkg.org/badges/version/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
-[![Dependencies](https://tinyverse.netlify.com/badge/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
+[![Dependencies](https://tinyverse.netlify.app/badge/RcppFarmHash)](https://cran.r-project.org/package=RcppFarmHash)
 [![Downloads](https://cranlogs.r-pkg.org/badges/RcppFarmHash?color=brightgreen)](https://www.r-pkg.org/pkg/RcppFarmHash)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/rcppfarmhash)](https://github.com/eddelbuettel/rcppfarmhash)
 
