@@ -3,8 +3,10 @@ Type: Package
 Title: Interface to the Google 'FarmHash' Family of Hash Functions
 Version: 0.0.3
 Date: 2023-09-09
-Author: Dirk Eddelbuettel
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Authors@R: c(person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+                    comment = c(ORCID = "0000-0001-6419-907X")),
+             person("Geoff", "Pike", role = "aut", comment = "Author of FarmHash"),
+             person("Google, Inc.", role = "cph", comment = "Copyright for FarmHash"))
 Description: The Google 'FarmHash' family of hash functions is used by
  the Google 'BigQuery' data warehouse via the 'FARM_FINGERPRINT'
  function. This package permits to calculate these hash digest
