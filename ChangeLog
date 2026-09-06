@@ -1,3 +1,11 @@
+2026-09-06  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: URL updates, add r-universe badge
+
+2026-08-19  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Switch to actions/checkout@v7
+
 2026-01-15  Dirk Eddelbuettel  <edd@debian.org>
 
 	* .github/workflows/ci.yaml: Switch to actions/checkout@v6
