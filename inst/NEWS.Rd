@@ -3,7 +3,7 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/rcppfarmhash/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/rcppfarmhash/issues/#1}{##1}}
 
-\section{Changes in version 0.0.3 (2023-09-09)}{
+\section{Changes in version 0.0.4 (2026-09-06)}{
   \itemize{
     \item Minor updates to continuous integration, README.md and DESCRIPTION
   }
