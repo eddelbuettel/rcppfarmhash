@@ -5,6 +5,12 @@
 
 \section{Changes in version 0.0.3 (2023-09-09)}{
   \itemize{
+    \item Minor updates to continuous integration, README.md and DESCRIPTION
+  }
+}
+
+\section{Changes in version 0.0.3 (2023-09-09)}{
+  \itemize{
     \item Rely on new \pkg{RcppInt64} package and its header for conversion
     \item Minor updates to continuous integration and README.md
   }

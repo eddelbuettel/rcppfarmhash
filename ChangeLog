@@ -1,5 +1,7 @@
 2026-09-06  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Date, Version): Release 0.0.4
+
 	* README.md: URL updates, add r-universe badge
 
 2026-08-19  Dirk Eddelbuettel  <edd@debian.org>
